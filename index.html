@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="mark_sheet">
+            <h1>Mark Sheet</h1>
+            <table id="table_1" class="table_same-property">
+                <tr>
+                    <td>Name: <span id="name"></span></td>
+                    <td>Roll No.: <span id="roll_no"></span></td>
+                </tr>
+                <tr>
+                    <td>Age: <span id="age"></span></td>
+                    <td>Institute: <span id="institute_name"></span></td>
+                </tr>
+            </table>
+            <br>
+            <table id="table_2" class="table_same-property margin_bottom">
+                <tr>
+                    <th>Subjects</th>
+                    <th>Total Marks</th>
+                    <th>Marks Obtained</th>
+                </tr>
+            </table>
+            
+            <table id="table_3" class="table_same-property">
+                <tr>
+                    <td>HTML5</td>
+                    <td>100</td>
+                    <td><span id="marks_in_html"></span></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>100</td>
+                    <td><span id="marks_in_css"></span></td>
+                </tr>
+                <tr>
+                    <td>JAVASCRIPT</td>
+                    <td>100</td>
+                    <td><span id="marks_in_js"></span></td>
+                </tr>
+                <tr>
+                    <td>ANGULAR JS</td>
+                    <td>100</td>
+                    <td><span id="marks_in_angular"></span></td>
+                </tr>
+                <tr>
+                    <td>REACT JS</td>
+                    <td>100</td>
+                    <td><span id="marks_in_react"></span></td>
+                </tr>
+            </table>
+            <br>
+            <table id="table_4" class="table_same-property margin_bottom">
+                <tr>
+                    <th>Grand Total</th>
+                    <th>500</th>
+                    <th><span id="total_marks_sheet"></span></th>
+                </tr>
+            </table>
+            <table id="table_5" class="table_same-property margin_bottom">
+                <tr>
+                    <th>Grade: <span id="grade"></span></th>
+                </tr>
+            </table>
+            <table id="table_6" class="table_same-property margin_bottom">
+                <tr>
+                    <th>Remarks: <span id="remarks"></span></th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>

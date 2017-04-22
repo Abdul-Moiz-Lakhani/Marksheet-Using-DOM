@@ -1,0 +1,80 @@
+.mark_sheet
+{
+    margin: auto;
+    width: 75%;
+    height: 450px;
+    border: 4px solid lightseagreen;
+    background-image: url("../images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1
+{
+    color: green;
+    font-family: 'Playball Regular';
+    font-size: 36px;
+    margin-top: .2em;
+    margin-bottom: .2em;
+    text-align: center;
+}
+
+.table_same-property
+{
+    margin: auto;
+    border: 2px solid lightseagreen;
+    width: 90%;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.margin_bottom
+{
+    margin-bottom: 5px;
+}
+
+#table_1
+{
+    text-align: center;
+}
+
+#table_1 td
+{
+    font-weight: bold;
+}
+
+#table_1 td span
+{
+    font-weight: normal;
+}
+
+#table_2 th
+{
+    text-align: center;
+    width: 25%;
+}
+
+#table_3 td
+{
+    text-align: center;
+    width: 25%;
+}
+
+#table_4 th
+{
+    text-align: center;
+    width: 25%;
+}
+
+#table_5 th span
+{
+    font-weight: normal;
+}
+
+#table_6 th span
+{
+    font-weight: normal;
+}
